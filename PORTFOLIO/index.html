@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#intern">Internship And Training</a></li>
+                    <li><a href="#project">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Front End Developer</p>
+                <h1>Hi, I'm <span>Akilan</span><br> From Neyveli</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------About-------------->
+   
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Profile.JPEG" alt="Profile Image">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Aspiring Front-End Developer with a passion for crafting dynamic, user-friendly websites.
+                            Skilled in HTML, CSS, and JavaScript, aiming to leverage creative and technical expertise to
+                            enhance user experiences and contribute to innovative web development projects.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('SchoolEducation')">School Education</p>
+                            <p class="tab-links" onclick="opentab('CollegeEducation')">College Education</p>
+                            <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="SchoolEducation">
+                            <ul>
+                                <li><span>SSLC - </span>Jawahar Matriculation And Higher Secondary
+                                    School,Neyveli<br><span>Percentage=90.6%</span></li>
+                                <li><span>HSC - </span>Jawahar Matriculation And Higher Secondary
+                                    School,Neyveli<br><span>Percentage=67%</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="CollegeEducation">
+                            <ul>
+                                <li><span>B.E-EEE </span>KPR Institute Of Engineering And
+                                    Technology,Coimbatore<br><span>CGPA=7.80</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Skills">
+                            <ul>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JAVASCRIPT</span></li>
+                                <li><span>JAVA</span></li>
+                                <li><span>SQL</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <!--------------Internship And Trainings------------->
+    <div id="intern">
+    <div class="container">
+        <h1 class="sub-title">Internship And Training</h1>
+        <div class="intern-list">
+            <div>
+                <h2>TAQA-Pvt Power Limited,<br>Neyveli<span>Dec 2021-Jan 2022</span></h2>
+                <p> At TAQA Neyveli, I can learn about power plant operations, sustainable energy solutions, maintenance protocols, project management, teamwork, safety practices, and industry standards in the energy sector</p>
+            </div>
+            <div>
+                <h2>Ether Infotech,<br>Coimbatore<span>Jun 2022-Jun 2022</span></h2>
+                <p> At Ether Infotech I had learned how to  work on projects like developing web applications, implementing  marketing strategies, building e-commerce platforms, or automating business processes using modern technologies such as JavaScript, HTML and CSS.</p>
+            </div>
+            <div>
+                <h2>Hands-on Workshop by NoviTech,<br>Coimbatore<span>Jun 2024-Jul 2024</span></h2>
+                <p> Currently engaged in learning from a Full Stack Development For 30 days Workshop conducted by NoviTech</p>
+            </div>
+    
+        </div>
+    </div>
+    </div>
+
+
+<!---------------------My Projects---------------->
+
+    <div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+          <div class="project">
+            <img src="project1.png">
+            <div class="layer">
+                <h3>Cloud Based Energy Monitoring And Control System</h3>
+                <p> Developed an innovative energy monitoring system leveraging IoT technoloy,enabling real-time data collection on energy usage integrated cloud connectivity and accessiblity.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project2.png">
+            <div class="layer">
+                <h3>Notes</h3>
+                <p>This project is an online code editor allowing users to write and test HTML, CSS, and JavaScript in real-time, with instant feedback displayed in an embedded iframe output window.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project3.jpg">
+            <div class="layer">
+                <h3>Online Code Writer</h3>
+                <p> This project is an online code editor allowing users to write and test HTML, CSS, and JavaScript in real-time, with instant feedback displayed in an embedded iframe output window.</p>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+        </div>
+        </div>
+ 
+   <!-------------Contact------------->
+  
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">  Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>akilanselvamani@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6374571832</p>
+                    <div class="social-icons">
+                        <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <a href="AKILAN-RESUME.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required> 
+                        <textarea name="Message" rows="6" placeholder="Your Message"  ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                         
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Akilan  </p>
+    </div>
+
+   </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
